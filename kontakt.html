@@ -1,0 +1,46 @@
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="script.js"></script>
+
+<header>
+    <h1>KONTAKT</h1>
+
+    <nav>
+        <a href="index.html">Početna</a>
+        <a href="bendovi.html">Bendovi</a>
+        <a href="albumi.html">Albumi</a>
+        <a href="galerija.html">Galerija</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+</header>
+
+<main>
+
+<form onsubmit="return posaljiFormu()">
+
+    <h2>Kontakt forma</h2>
+
+    <input type="text" id="ime" placeholder="Unesi ime">
+
+    <input type="text" id="bend" placeholder="Omiljeni bend">
+
+    <textarea id="komentar" placeholder="Komentar"></textarea>
+
+    <button type="submit">
+        Pošalji
+    </button>
+
+</form>
+
+<div id="ispisForme"></div>
+
+</main>
+
+</body>
+</html>

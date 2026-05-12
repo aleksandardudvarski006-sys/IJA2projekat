@@ -1,0 +1,54 @@
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albumi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script src="script.js"></script>
+
+<header>
+    <h1>POZNATI ALBUMI</h1>
+
+    <nav>
+        <a href="index.html">Početna</a>
+        <a href="bendovi.html">Bendovi</a>
+        <a href="albumi.html">Albumi</a>
+        <a href="galerija.html">Galerija</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+</header>
+
+<main>
+
+    <div class="kartica">
+        <h2>Oceni album</h2>
+
+        <input type="number" id="ocena" placeholder="Unesi ocenu 1-10">
+
+        <button onclick="oceniAlbum()">
+            Proveri
+        </button>
+
+        <div id="albumRezultat"></div>
+    </div>
+
+    <div class="kartica">
+        <h2>Dodaj album</h2>
+
+        <input type="text" id="noviAlbum" placeholder="Naziv albuma">
+
+        <button onclick="dodajAlbum()">
+            Dodaj album
+        </button>
+
+        <ul id="lista" class="listaAlbuma"></ul>
+    </div>
+
+</main>
+
+
+</body>
+</html>
